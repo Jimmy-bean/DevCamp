@@ -36,18 +36,18 @@
 }
 
 /*center column styles*/
-.navigation-wrapper>.center-column{
+/*.navigation-wrapper>*/.center-column{
     display:grid;
     grid-template-columns:1fr;
     grid-template-rows:2fr;
     grid-row-gap:50px;
     width:500px;
 }
-.navigation-wrapper>.center-column>.banner-image{
+ .navigation-wrapper>.center-column>.banner-image{ 
     display:flex;
     justify-content:center;
 }
-.navigation-wrapper>.center-column>.banner-image img{
+ .navigation-wrapper>.center-column>.banner-image img{ 
     width: 216px;
     height: 100%;
 }
@@ -56,22 +56,22 @@
     justify-content: space-between;
     align-items:center;
 }
-.links-wrapper > .nav-link{
+.link-wrapper > .nav-link{
     width: 70px;
     text-align:center;
 }
-.nav-link a{
+.link-wrapper > .nav-link a{
     font-family:"Ubuntu Condensed", sans-serif;
     color:white;
     transition:0.5s;
     text-decoration: none;
     text-align:center;
 }
-.nav-link a:hover{
+.link-wrapper > .nav-link a:hover{
     color:#cea135;
     letter-spacing:2px;
 }
-.links-wrapper>.nav-link a:visited{
+.link-wrapper > .nav-link a:visited{
     color:#cbcbcb;
 }
 
